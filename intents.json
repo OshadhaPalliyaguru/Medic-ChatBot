@@ -1,0 +1,45 @@
+{ 
+  "intents": [ 
+    { 
+      "tag": "greeting", 
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Is anyone there?"], 
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I assist you with?"], 
+      "context": [""] 
+    }, 
+    { 
+      "tag": "goodbye", 
+      "patterns": ["Goodbye", "See you", "Bye", "Take care", "Farewell"], 
+      "responses": ["Goodbye! Take care!", "See you later!", "Stay safe!"] 
+    }, 
+    { 
+      "tag": "symptoms", 
+      "patterns": ["I have symptoms", "What are the symptoms?", "Tell me about symptoms", "I feel sick"], 
+      "responses": ["Common symptoms include fever, cough, and fatigue.", "If you have difficulty breathing or chest pain, please seek immediate medical attention."] 
+    }, 
+    { 
+      "tag": "prevention", 
+      "patterns": ["How do I prevent illness?", "Prevention tips", "How to stay safe?"], 
+      "responses": ["Wash your hands regularly and maintain hygiene.", "Avoid crowded places and ensure good ventilation indoors."] 
+    }, 
+    { 
+      "tag": "testing", 
+      "patterns": ["Where can I get tested?", "Testing locations", "How do I get tested?"], 
+      "responses": ["You can visit your local health clinic for testing.", "Contact your healthcare provider for a referral to the nearest testing center."] 
+    }, 
+    { 
+      "tag": "exposure", 
+      "patterns": ["What if I was exposed?", "I was exposed", "Exposure guidelines"], 
+      "responses": ["Monitor yourself for symptoms for the next 14 days.", "Quarantine requirements vary by location; please check with your local health authority for current isolation guidelines."] 
+    }, 
+    { 
+      "tag": "vaccination", 
+      "patterns": ["Tell me about vaccines", "Vaccination info", "Should I get vaccinated?"], 
+      "responses": ["Vaccination is recommended for most people.", "Consult your doctor for specific advice regarding which vaccine is right for you."] 
+    }, 
+    { 
+      "tag": "thanks", 
+      "patterns": ["Thank you", "Thanks", "Thanks for the help", "Appreciate it"], 
+      "responses": ["You're welcome!", "Happy to help!", "Glad I could assist!"] 
+    } 
+  ] 
+}
