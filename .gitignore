@@ -1,0 +1,22 @@
+# Virtual Environment Folders
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# NLTK Data
+nltk_data/
+
+# Databases
+*.db
+covid_data.db
+
+# OS Files
+.DS_Store
+Thumbs.db
